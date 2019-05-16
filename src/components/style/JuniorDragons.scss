@@ -1,0 +1,24 @@
+.juniorDragonsTitle{
+    height: 500px;
+    width: 100%;
+    background-image: url('./img/Classes/JrDragons.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    font-size: 80px;
+    font-family: 'Viga', sans-serif;
+    color: white;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.container{
+    .juniorDragons{
+        color: #63656d;
+    }
+} 
+
+@media(max-width: 872px){
+    .juniorDragonsTitle{
+        font-size: 50px;
+    }
+}

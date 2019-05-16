@@ -1,0 +1,29 @@
+.dragonTeamTitle {
+  height: 500px;
+  width: 100%;
+  background-image: url("./img/Classes/DragonTeam.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 80px;
+  font-family: 'Viga', sans-serif;
+  color: white;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.container .dragonTeam {
+  color: #63656d;
+}
+
+.container .dragonTeamPic {
+  height: 300px;
+}
+
+@media (max-width: 872px) {
+  .dragonTeamTitle {
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=DragonTeam.css.map */

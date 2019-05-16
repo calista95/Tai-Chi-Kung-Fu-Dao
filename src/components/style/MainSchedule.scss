@@ -1,0 +1,28 @@
+.mainScheduleTitle{
+    height: 500px;
+    width: 100%;
+    background-image: url('./img/Schedule/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    font-size: 80px;
+    font-family: 'Viga', sans-serif;
+    color: white;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.container{   
+    padding: 20px;
+    .btn{
+        z-index: inherit;
+    }
+    .textColor{
+        color: #63656d;
+    }
+}  
+
+@media(max-width: 575px){
+    .mainScheduleTitle{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,48 @@
+/* The navigation bar */
+.headerTitle {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  padding: 10px;
+  font-size: 40px;
+  color: #0e0459;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.headerTitle img {
+  height: 45px;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  background-color: #0e0459;
+  opacity: 1;
+  top: 70px;
+}
+
+.navbar .logo {
+  display: none;
+}
+
+@media (max-width: 575px) {
+  .contactLink {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 503px) {
+  .galleryLink {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 435px) {
+  .scheduleLink {
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

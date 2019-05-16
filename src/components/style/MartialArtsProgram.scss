@@ -1,0 +1,30 @@
+.martialArtsProgram{
+    height: 500px;
+    width: 100%;
+    background-image: url('./img/Classes/MartialArtsProgram/martialArtsProgram.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    font-size: 80px;
+    font-family: 'Viga', sans-serif;
+    color: white;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.container{
+    .introToMartialArtsTitle{
+        font-size: 20px;
+        font-style: bold;
+        color: #63656d;
+    }
+    .introToMartialArts{
+        color: #63656d;
+        border-bottom-style: dotted;
+    }
+}   
+
+@media(max-width: 872px){
+    .martialArtsProgram{
+        font-size: 50px;
+    }
+}  

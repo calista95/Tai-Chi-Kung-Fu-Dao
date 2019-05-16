@@ -1,0 +1,45 @@
+.homePic{
+    height: 500px;
+    width: 100%;
+    background-image: url('./img/homepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    .homeMessage{
+        padding-top: 130px;
+        font-size: 75px;  
+        color: white;
+        font-family: 'Viga', sans-serif;
+    }
+    .learnMore{
+        z-index: inherit;
+    }
+    a{
+        color: white;  
+
+        text-decoration: none;
+    }
+}
+
+.homeWelcome{
+    color: #63656d;
+    .title{
+    font-size: 20px;
+    }
+}
+
+@media(max-width: 1219px){
+    .homePic{
+    .homeMessage {
+        font-size: 60px;
+        }
+    }
+}
+
+@media(max-width: 1009px){
+    .homePic{
+    .homeMessage {
+        font-size: 50px;
+        }
+    }
+}
