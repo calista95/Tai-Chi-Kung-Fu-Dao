@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <React.Fragment>
           <br></br><br></br>
-          <div className="footer">
+          <div className="footer bg-dark">
           2270 Quimby Road, San Jose, CA 95122 <br></br>
           Phone: (408) 505-8809 <br></br>
           Email: kungfuz@kungfuz.com <br></br>
