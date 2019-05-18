@@ -19,4 +19,10 @@
 .navbar .dropdown .dropdown-menu .dropdown-item {
   color: white;
 }
+
+@media (max-width: 785px) {
+  .headerTitle {
+    font-size: 25px;
+  }
+}
 /*# sourceMappingURL=Header.css.map */
