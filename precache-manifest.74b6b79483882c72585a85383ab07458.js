@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0c199b1afaac6aec82a9271dc89ebcb",
+    "revision": "f06384108292b55854d941a38808a1ac",
     "url": "/Tai-Chi-Kung-Fu-Dao/index.html"
   },
   {
-    "revision": "b069e1e992e1071a6f65",
-    "url": "/Tai-Chi-Kung-Fu-Dao/static/css/main.48985655.chunk.css"
+    "revision": "0f636cde783231851930",
+    "url": "/Tai-Chi-Kung-Fu-Dao/static/css/main.6cf5eea3.chunk.css"
   },
   {
     "revision": "98cdfe310560d0f755a7",
     "url": "/Tai-Chi-Kung-Fu-Dao/static/js/2.c1dc88ce.chunk.js"
   },
   {
-    "revision": "b069e1e992e1071a6f65",
+    "revision": "0f636cde783231851930",
     "url": "/Tai-Chi-Kung-Fu-Dao/static/js/main.a048a736.chunk.js"
   },
   {
