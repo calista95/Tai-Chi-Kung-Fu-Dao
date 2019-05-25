@@ -17,7 +17,7 @@ export default function Contact() {
 
             <div className="row">Questions or concerns? Send us an email directly: </div>
             <div className="row">
-                <form action="mailto:cwong5499@yahoo.com" method="post" enctype="text/plain" >
+                <form action="mailto:kungfuz@kungfuz.com" method="post" enctype="text/plain" >
                     <textarea className="emailBody" maxlength="50" type="text" name="message" /><br></br>
                     <center><button className="waves-effect waves-light btn-med blue lighten-3 btn"><input type="submit" value="Submit"/></button></center>
                 </form>

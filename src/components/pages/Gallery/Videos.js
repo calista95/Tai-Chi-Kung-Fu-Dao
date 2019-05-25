@@ -9,7 +9,7 @@ export default class Videos extends Component {
         <div className="videosTitle">Video Gallery</div>
         <div className="container">
             <div className="row">
-                <p className="videoCaption">Master's Performance</p>
+                <p className="mediaCaption">Master's Performance</p>
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe width="853" height="480" src="https://www.youtube.com/embed/1z7bW2aPTu8" 
                     frameBorder="0" allowFullScreen ng-show="showvideo"></iframe>
@@ -17,7 +17,7 @@ export default class Videos extends Component {
             </div>
 
             <div className="row">
-                <p className="videoCaption">Presentation</p>
+                <p className="mediaCaption">Presentation</p>
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe width="853" height="480" src="https://www.youtube.com/embed/T0lTKQsNFBM" 
                     frameBorder="0" allowFullScreen ng-show="showvideo"></iframe>
@@ -25,7 +25,7 @@ export default class Videos extends Component {
             </div>
 
             <div className="row">
-                <p className="videoCaption">Belt Testing</p>
+                <p className="mediaCaption">Belt Testing</p>
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe width="853" height="480" src="https://www.youtube.com/embed/rdMUvBQUPCs" 
                     frameBorder="0" allowFullScreen ng-show="showvideo"></iframe>
@@ -33,7 +33,7 @@ export default class Videos extends Component {
             </div>
 
             <div className="row">
-                <p className="videoCaption">Lumination</p>
+                <p className="mediaCaption">Lumination</p>
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe width="853" height="480" src="https://www.youtube.com/embed/hnMKfmlBxbY" 
                     frameBorder="0" allowFullScreen ng-show="showvideo"></iframe>

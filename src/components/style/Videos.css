@@ -1,7 +1,7 @@
 .videosTitle {
   height: 500px;
   width: 100%;
-  background-image: url("./img/gallery/videos.jpg");
+  background-image: url("./img/Gallery/videos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -ms-flex-line-pack: center;
@@ -23,7 +23,7 @@
   color: #660000;
 }
 
-.container .videoCaption {
+.container .mediaCaption {
   color: #63656d;
   font-size: 20px;
 }

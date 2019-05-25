@@ -4,27 +4,6 @@ import { Link } from 'react-router-dom';
 import '../style/Header.css';
 import $ from 'jquery';
 
-function getWidth() {
-  return Math.max(
-    document.body.scrollWidth,
-    document.documentElement.scrollWidth,
-    document.body.offsetWidth,
-    document.documentElement.offsetWidth,
-    document.documentElement.clientWidth
-  );
-}
-/*
-function openSlideMenu(){
-  document.getElementById('sideMenu').style.width = '250px';
-  document.getElementById('main').style.marginLeft = '250px';
-}
-
-function closeSlideMenu(){
-  document.getElementById('sideMenu').style.width = '0px';
-  document.getElementById('main').style.marginLeft = '0px';
-}
-*/
-
 export default class Header extends Component {
   componentDidMount() {
     window.addEventListener('scroll', ()=>{
@@ -35,6 +14,12 @@ export default class Header extends Component {
         $('.navbar').css('opacity', '1')
       }
     })
+
+    $(document).on('click','.navbar-collapse.in',function(e) {
+      if( $(e.target).is('a') ) {
+          $(this).collapse('hide');
+      }
+  });
   }
     
   render() {
@@ -51,7 +36,7 @@ export default class Header extends Component {
         </button>
 
         <div className="collapse navbar-collapse bg-dark" id="collapse_target">
-        <ul class="navbar-nav">
+        <ul className="navbar-nav">
         
           <li><Link className="nav-item" to="/">Home</Link></li>
           <li><Link className="nav-item" to="/About">About</Link></li>

@@ -1,7 +1,7 @@
 .picturesTitle{
     height: 500px;
     width: 100%;
-    background-image: url('./img/gallery/pictures.jpg');
+    background-image: url('./img/Gallery/pictures.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
@@ -10,6 +10,61 @@
     color: white;
     padding-left: 200px;
     padding-top: 100px;
+}
+
+.pictureGallery{
+    font-size: 30px;
+    color: white;
+    .yr_2013{
+        background-color: #131A41;
+        height: 150px;
+        .nav-item{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .nav-item:hover{
+            color:grey;
+        }
+    }
+    .yr_2014{
+        background-color:#421207;
+        height: 150px;
+        width: 50px;
+        .nav-item{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .nav-item:hover{
+            color: grey;
+        }
+    }
+    .yr_2015{
+        background-color: #421207;
+        height: 150px;
+        .nav-item{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .nav-item:hover{
+            color: grey;
+        }
+    }
+    .yr_2016{
+        background-color: #131A41;
+        height: 150px;
+        .nav-item{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .nav-item:hover{
+            color: grey;
+        }
+    }
+
 }
 
 @media(max-width: 785px){
