@@ -8,7 +8,7 @@ export default class Header extends Component {
   componentDidMount() {
     window.addEventListener('scroll', ()=>{
       if (window.scrollY >= 200){
-        $('.navbar').css('opacity', '0.85')
+        $('.navbar').css('opacity', '0.95')
       }
       else{
         $('.navbar').css('opacity', '1')
