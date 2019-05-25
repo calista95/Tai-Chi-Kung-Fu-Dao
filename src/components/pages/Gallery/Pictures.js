@@ -11,36 +11,36 @@ export default class Pictures extends Component {
             <div className="container pictureGallery">
 
               <div className="row justify-content-center">
-
                 <div className="col-md-6 custom-info text-center yr_2013">2013
                   <ul>
                     <li><Link className="nav-item"  to="/annual_performance_2013">Annual Performance 2013</Link></li>
                     <li><Link className="nav-item"  to="/wushu_invitational_competition_2013">Wushu Invitational Competition 2013</Link></li>
                   </ul>
                 </div>
-
+              </div>
+           
+              <div className="row justify-content-center">
                 <div className="col-md-6 custom-info text-center yr_2014">2014
                   <ul>
                     <li><Link className="nav-item"  to="/pics_2014">Tiger Claw Elite Competition</Link></li>
                   </ul>
                 </div>
-
               </div>
 
               <div className="row justify-content-center">
-
                 <div className="col-md-6 custom-info text-center yr_2015">2015
                   <ul>
                     <li><Link className="nav-item"  to="/pics_2015">2015 Spring Performance Video</Link></li>
                   </ul>
                 </div>
+              </div>
 
+              <div className="row justify-content-center">
                 <div className="col-md-6 custom-info text-center yr_2016">2016
                   <ul>
                     <li><Link className="nav-item"  to="/pics_2016">2016 Spring Performance/NCCAF Wushu and Dance Invitational</Link></li>
                   </ul>
                 </div>
-
               </div>
   
             </div>
