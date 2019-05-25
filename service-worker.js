@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/Tai-Chi-Kung-Fu-Dao/precache-manifest.f2e326c1a552a092dc1ca45bf66c895a.js"
+  "/Tai-Chi-Kung-Fu-Dao/precache-manifest.bd978a0eae79eb88db9df893be97a30f.js"
 );
 
 self.addEventListener('message', (event) => {
