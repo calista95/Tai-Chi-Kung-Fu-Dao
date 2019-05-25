@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Footer from '../../../layout/Footer'
+import '../../../style/pictureFormatter.css'
 
 export default class pics_2014 extends Component {
     render() {
