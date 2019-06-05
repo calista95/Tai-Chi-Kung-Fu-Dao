@@ -15,11 +15,30 @@ export default class Header extends Component {
       }
     })
 
-    $(document).on('click','.navbar-collapse.in',function(e) {
-      if( $(e.target).is('a') ) {
-          $(this).collapse('hide');
+    //toggle bar stuff 
+    var collapsed = true; //initialize to collapsed
+    $('.navbar-toggler').on('click', function(){
+      if (collapsed==true){
+       $('.navbar-collapse').show();
+        collapsed=false;
       }
-  });
+      else{
+      $('.navbar-collapse').hide();
+      collapsed=true;
+      }
+    })
+
+    $('.nav-item').on('click', function(){
+      $('.navbar-collapse').hide();
+      collapsed = true;
+    })
+
+    $('.dropdown-item').on('click', function(){
+      $('.navbar-collapse').hide();
+      collapsed = true;
+    })
+
+
   }
     
   render() {
@@ -31,7 +50,7 @@ export default class Header extends Component {
       {/* navbar */}
       <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top"> 
 
-        <button className="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <button className="navbar-toggler" data-target="#collapse_target">
           <span className="navbar-toggler-icon"></span>
         </button>
 
