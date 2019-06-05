@@ -20,6 +20,10 @@
   color: white;
 }
 
+.navbar .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: maroon;
+}
+
 @media (max-width: 785px) {
   .headerTitle {
     font-size: 25px;
